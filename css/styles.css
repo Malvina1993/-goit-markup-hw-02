@@ -1,4 +1,61 @@
 :root {
     --main-color-br:#FFFFFF;
+    --main-color-logo: #4d5ae5;
+    --header-color-logo: #2e2f42;
+    --header-menu-color: #2e2f42;
+    --header-color-link: #404bbf;
+    --color-address: #434455;
     
+}
+/** HEADER Style*/
+
+.header-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--main-color-logo);
+}
+
+.link {
+    text-decoration: none;
+}
+
+.heder-studio {
+    color: var(--header-color-logo);
+}
+
+.list {
+    list-style: none;
+}
+
+.header-menu {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--header-menu-color);
+}
+
+.header-menu:hover,
+.header-menu:focus {
+    color: var(--header-color-link);
+}
+
+.header-address {
+    font-style: normal;
+}
+
+.address-li {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-address);
+}
+
+.address-li:hover,
+.address-li:focus {
+    color: var(--header-color-link);
 }
