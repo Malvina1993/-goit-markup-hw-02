@@ -5,6 +5,8 @@
     --header-menu-color: #2e2f42;
     --header-color-link: #404bbf;
     --color-address: #434455;
+    --footer-color-br: #2e2f42;
+    --footer-color-logo:#f4f4fd;
     
 }
 /** HEADER Style*/
@@ -58,4 +60,15 @@
 .address-li:hover,
 .address-li:focus {
     color: var(--header-color-link);
+}
+/*-------------------------------------------------------*/
+
+/*FOOTER*/
+
+.footer-body {
+    background-color: var(--footer-color-br)
+}
+
+.footer-logo {
+    color:var(--footer-color-logo);
 }
