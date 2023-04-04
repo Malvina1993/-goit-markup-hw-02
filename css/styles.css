@@ -85,7 +85,7 @@
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     color: #FFFFFF;
     cursor: pointer;
@@ -105,7 +105,7 @@
 .title-feature {
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;   
      color: var(--title-color-section);
 }
@@ -113,7 +113,7 @@
 
 .paragr-feature {
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
      color: var(--main-color-section);
 }
